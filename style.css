@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+      font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 12px;
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+   
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    height: 20vh;
+    /* padding-top: 5em; */
+    color: white;
+    /* background-image: linear-gradient(white,rgba(255, 255, 255,0.2),black); */
+}
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 80vw;
+    margin: 0px auto;
+    /* background-color: rgb(0, 85, 255); */
+}
+.right,.left{
+    border: 1px solid black;
+    height: 60vh;
+    width: 40vw;
+    background-image: url(/Screenshot\ 2025-06-22\ 195344.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.screen,.advancedops{
+    border: 1px solid black;
+}
+.screen{
+    height: 24vh;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-image: url(/Screenshot\ 2025-06-22\ 195344.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advancedops{
+    height: 36vh;
+}
+.somebtns{
+    height: 10vh;
+    border: 1px solid black;
+}
+.second{
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+}
+.numpad{
+    height: 50vh;
+    width: 30vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.basicops{
+    height: 50vh;
+    width: 10vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    height: 20vh;
+    /* background-image: linear-gradient(black, rgba(255,255,255,0.2), white); */
+    /* padding-bottom: 5em; */
+}
+.line{
+    width: 30vw;
+    height: 10vh ;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    border: 1px solid black;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding-left: 1vw;
+    background-color: #D4AF37;
+    cursor: pointer;
+}
+.line button{
+    border-radius: 50%;
+}
+.line4{
+    width: 22vw;
+    height: 8vh;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding-left: 1vw;
+    background-color: #D4AF37;
+    cursor: pointer;
+}
+.zerobtn{
+    border-radius: 50px;
+}
+.sbord{
+    width: 36vw;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 2vh 2vw;
+    background-color: rgb(205, 200, 200);
+}
+#equalbtn{
+    width: 7vw;
+    height: 24vh;
+border-radius: 50%/20%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center
+    ;align-items: center;
+    font-size: 4em;
+    background-color: #D4AF37;
+    cursor: pointer;
+}
+.plusbtn{
+    width: 4vw;
+    height: 4vw;
+    border-radius:50%;
+    font-size: 4em;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4AF37;
+    cursor: pointer;
+}
+.plusbtn p,.equalbtn p{
+    margin-left:0.2em;
+}
+.plusbtn1{
+    border-radius: 50%;
+}
+.equalbtn1{
+    border-radius: 50%/20%;
+}
+.somebtns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btns{
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4AF37;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 2em;
+}
+.somebtns .btnss{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btns p{
+    padding-left:10px ;
+}
+.btnsss{
+    height: 4vw;
+    width: 8vw;
+    font-size: 1.3em;
+    background-color: #D4AF37;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.writing-space h2{
+    text-align: center;
+}
+.writing-space textarea{
+    margin: 1em 4em;
+    letter-spacing: 3px;
+    
+}
+.sbord input{
+    background-color: rgb(205, 200, 200);
+    width: 36vw;
+    height: 20vh;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2em;
+}
