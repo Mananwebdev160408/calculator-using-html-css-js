@@ -29,8 +29,8 @@ lasset.forEach((val)=>{
     val.addEventListener('click',()=>{
         let a=val.innerHTML
         if(a=='Clear'){
-            
-            document.getElementsByTagName('input')[0].value=''
+            screen=''
+            document.getElementsByTagName('input')[0].value=screen
         }
         else{
             let answer=eval(screen)
